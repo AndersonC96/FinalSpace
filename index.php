@@ -4,6 +4,7 @@
         <link rel="shortcut icon" href="./favicon.png"/>
         <link rel="stylesheet" href="style.css">
         <script src="main.js"></script>
+        <link rel="shortcut icon" href="./finalspace.ico"/>
     </head>
     <body>
         <nav class="nav">
