@@ -14,7 +14,7 @@
                 </div>
                 <div id="mainListDiv" class="main_list">
                     <ul class="navlinks">
-                        <li class="active"><a href="./index.php">Home</a></li>
+                        <li><a href="./index.php">Home</a></li>
                         <li><a href="./characters.php">Personagens</a></li>
                         <li><a href="./episodes.php">Episódios</a></li>
                         <li><a href="./location.php">Localizações</a></li>
