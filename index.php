@@ -28,7 +28,7 @@
             </div>
         </nav>
         <section class="home"></section>
-        <div style="height: 100%"></div>
+        <!--<div style="height: 100%"></div>-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/scripts.js"></script>
         <script>
