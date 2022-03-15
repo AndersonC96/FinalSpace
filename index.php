@@ -1,59 +1,43 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="shortcut icon" href="https://finalspaceapi.com/img/logo.png"/>
         <title>Final Space</title>
-        <link rel="shortcut icon" href="./favicon.png"/>
-        <link rel="stylesheet" href="style.css">
-        <script src="main.js"></script>
-        <link rel="shortcut icon" href="./finalspace.ico"/>
     </head>
     <body>
-        <nav class="nav">
-            <div class="container">
-                <div class="logo">
-                    <a href="https://www.netflix.com/pt/title/80174479">Final Space</a>
-                </div>
-                <div id="mainListDiv" class="main_list">
-                    <ul class="navlinks">
-                        <li><a href="./index.php">Home</a></li>
-                        <li><a href="./characters.php">Personagens</a></li>
-                        <li><a href="./episodes.php">Episódios</a></li>
-                        <li><a href="./location.php">Localizações</a></li>
-                        <li><a href="./quotes.php">Citações</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://www.netflix.com/pt/title/80174479">Final Space</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.php">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./characters.php">Personagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./episodes.php">Episódios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./location.php">Localizações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./quotes.php">Citações</a>
+                        </li>
                     </ul>
                 </div>
-                <span class="navTrigger">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </span>
             </div>
         </nav>
-        <section class="home"></section>
-        <!--<div style="height: 100%"></div>-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="js/scripts.js"></script>
-        <script>
-            $(window).scroll(function(){
-                if($(document).scrollTop() > 50){
-                    $('.nav').addClass('affix');
-                    console.log("OK");
-                }else{
-                    $('.nav').removeClass('affix');
-                }
-            });
-        </script>
-        <!--<div class="container-fluid">
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="./index.php">Home</a></li>
-                        <li><a href="./characters.php">Personagens</a></li>
-                        <li><a href="./episodes.php">Episódios</a></li>
-                        <li><a href="./location.php">Localizações</a></li>
-                        <li><a href="./quotes.php">Citações</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>-->
+        <div class="has-bg-img">
+            <img class="bg-img" src="https://images8.alphacoders.com/105/thumb-1920-1055760.jpg" height="800vh" alt="Final Space Background">
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>
