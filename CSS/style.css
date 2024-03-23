@@ -1,9 +1,8 @@
-body, html {
+body, html{
     height: 100%;
     margin: 0;
 }
-
-.bg-img {
+.bg-img{
     background-image: url('https://images8.alphacoders.com/105/thumb-1920-1055760.jpg');
     height: 100%;
     background-position: center;
@@ -13,8 +12,7 @@ body, html {
     filter: blur(8px);
     -webkit-filter: blur(8px);
 }
-
-.content {
+.content{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -26,12 +24,39 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
-
-.content h1 {
-    font-size: 50px;
+.navbar{
+    margin-bottom: 20px;
 }
-
-nav.navbar {
+.navbar-nav{
+    flex-direction: row !important;
+}
+.nav-item{
+    margin: 0 10px;
+}
+.nav-link{
+    color: white !important;
+}
+nav.navbar{
     background-color: rgba(0,0,0,0.8) !important;
+}
+.navbar{
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 960px;
+    background-color: #000;
+}
+.container-fluid{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.navbar-nav{
+    justify-content: center;
+}
+.nav-item{
+    margin: 0 10px;
+}
+.nav-link.active{
+    border-bottom: 2px solid #fff;
 }
