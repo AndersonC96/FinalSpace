@@ -60,3 +60,8 @@ nav.navbar{
 .nav-link.active{
     border-bottom: 2px solid #fff;
 }
+.logo-nav{
+    height: auto;
+    max-height: 50px;
+    width: auto;
+}
